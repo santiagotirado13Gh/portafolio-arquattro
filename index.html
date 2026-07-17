@@ -1,0 +1,114 @@
+﻿<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1C1C1C" />
+    <meta name="description" content="Arquattro — Diseño que se construye." />
+    <title>Arquattro — Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .brand-logo{display:block;width:176px;height:auto;filter:brightness(0) invert(1)}.project-location{display:block;margin-top:.38rem!important;letter-spacing:.1em!important;color:rgba(246,244,240,.72)!important}.project-card{cursor:pointer}.project-card:focus-visible{outline:3px solid #a89b8c;outline-offset:4px}.project-modal{position:fixed;inset:0;z-index:100;background:rgba(14,14,14,.96);color:#f6f4f0;display:none;overflow:auto;padding:5.5rem 6vw 3rem}.project-modal.open{display:block}.modal-close{position:fixed;top:1.5rem;right:5vw;border:1px solid rgba(246,244,240,.4);border-radius:50%;width:42px;height:42px;background:#1c1c1c;color:#f6f4f0;font:300 1.5rem Jost;cursor:pointer}.modal-head{max-width:960px;margin:0 auto 2rem}.modal-head p{margin:0 0 .7rem;font:.68rem Jost;letter-spacing:.18em;color:#d8cbb8}.modal-head h2{font:300 clamp(2.6rem,6vw,6rem) Jost;letter-spacing:-.05em}.modal-gallery{max-width:1240px;margin:auto;display:grid;grid-template-columns:2fr 1fr;gap:1rem}.modal-main{width:100%;height:min(68vh,740px);object-fit:cover}.modal-thumbs{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}.modal-thumb{width:100%;height:calc((min(68vh,740px) - .5rem)/2);object-fit:cover;cursor:pointer;opacity:.72;transition:.2s}.modal-thumb:hover,.modal-thumb.active{opacity:1;outline:1px solid #d8cbb8;outline-offset:3px}.modal-note{max-width:1240px;margin:1.25rem auto 0;color:#d8cbb8;font-size:.88rem;line-height:1.65}@media(max-width:760px){.brand-logo{width:132px}.project-modal{padding:5rem 5vw 2rem}.modal-gallery{grid-template-columns:1fr}.modal-main{height:48vh}.modal-thumbs{grid-template-columns:repeat(3,1fr)}.modal-thumb{height:16vw}.modal-close{right:5vw;top:1rem}}
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="wordmark" href="#inicio" aria-label="Arquattro, inicio"><img class="brand-logo" src="logo-arquattro-blanco.png" alt="Arquattro — Arquitectura y Construcción" /></a>
+      <div class="topbar-actions">
+        <a class="contact-link" href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+        <div class="language" aria-label="Selector de idioma">
+          <button class="language-button active" data-language="es" aria-pressed="true">ES</button>
+          <span>/</span>
+          <button class="language-button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <img class="hero-image" src="FOTOS_RENDERS%20PROYECTOS/CASA%20ROSSO/IMG_7560.JPG" alt="Casa Rosso" />
+        <div class="hero-wash"></div>
+        <div class="hero-content">
+          <p class="eyebrow">ARQUATTRO · LLANOGRANDE, COLOMBIA</p>
+          <h1 data-es="Diseño<br>que se<br><em>construye.</em>" data-en="Design<br>that gets<br><em>built.</em>">Diseño<br>que se<br><em>construye.</em></h1>
+          <p class="hero-caption" data-es="Arquitectura, interiorismo, construcción y desarrollo inmobiliario bajo una sola firma." data-en="Architecture, interior design, construction and real estate development under one practice.">Arquitectura, interiorismo, construcción y desarrollo inmobiliario bajo una sola firma.</p>
+        </div>
+        <a class="scroll-cue" href="#firma" aria-label="Continuar"><span></span></a>
+      </section>
+
+      <section class="statement section-pad" id="firma">
+        <p class="section-number">01</p>
+        <div class="statement-copy">
+          <p class="eyebrow dark" data-es="LA FIRMA" data-en="THE PRACTICE">LA FIRMA</p>
+          <h2 data-es="Una visión integral<br><em>para cada proyecto.</em>" data-en="An integrated vision<br><em>for every project.</em>">Una visión integral<br><em>para cada proyecto.</em></h2>
+          <p data-es="Arquattro diseña y construye residencias de alto nivel con una mirada sobria, atemporal y precisa. Integramos arquitectura, interiorismo, construcción y desarrollo inmobiliario para acompañar cada decisión desde el primer trazo hasta la obra terminada." data-en="Arquattro designs and builds high-end residences through a sober, timeless and precise approach. We integrate architecture, interior design, construction and real estate development to guide every decision from the first line to the finished work.">Arquattro diseña y construye residencias de alto nivel con una mirada sobria, atemporal y precisa. Integramos arquitectura, interiorismo, construcción y desarrollo inmobiliario para acompañar cada decisión desde el primer trazo hasta la obra terminada.</p>
+        </div>
+      </section>
+
+      <section class="capabilities section-pad" id="capacidades">
+        <div class="capabilities-intro">
+          <p class="section-number">02</p>
+          <p class="eyebrow" data-es="CAPACIDADES" data-en="CAPABILITIES">CAPACIDADES</p>
+          <h2 data-es="Cuatro disciplinas.<br>Una misma dirección." data-en="Four disciplines.<br>One shared direction.">Cuatro disciplinas.<br>Una misma dirección.</h2>
+        </div>
+        <div class="capability-list">
+          <article><span>01</span><h3 data-es="Arquitectura" data-en="Architecture">Arquitectura</h3><p data-es="Concepto, anteproyecto y desarrollo técnico-normativo." data-en="Concept design, schematic design and technical-regulatory development.">Concepto, anteproyecto y desarrollo técnico-normativo.</p></article>
+          <article><span>02</span><h3 data-es="Interiorismo" data-en="Interior Design">Interiorismo</h3><p data-es="Espacios, materiales y detalles concebidos para cada proyecto." data-en="Spaces, materials and details conceived specifically for each project.">Espacios, materiales y detalles concebidos para cada proyecto.</p></article>
+          <article><span>03</span><h3 data-es="Construcción" data-en="Construction">Construcción</h3><p data-es="Planeación, ejecución y control de calidad hasta la entrega." data-en="Planning, delivery and quality control through completion.">Planeación, ejecución y control de calidad hasta la entrega.</p></article>
+          <article><span>04</span><h3 data-es="Desarrollo inmobiliario" data-en="Real Estate Development">Desarrollo inmobiliario</h3><p data-es="Oportunidades, alianzas y coordinación de desarrollos propios." data-en="Opportunities, partnerships and coordination of proprietary developments.">Oportunidades, alianzas y coordinación de desarrollos propios.</p></article>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Trayectoria en cifras">
+        <div><strong>+40</strong><span data-es="proyectos desarrollados" data-en="projects developed">proyectos desarrollados</span></div>
+        <div><strong>+16.000</strong><span data-es="m² diseñados" data-en="m² designed">m² diseñados</span></div>
+        <div><strong>+10.000</strong><span data-es="m² construidos" data-en="m² built">m² construidos</span></div>
+        <div><strong>2020</strong><span data-es="desde" data-en="since">desde</span></div>
+      </section>
+
+      <section class="projects section-pad" id="proyectos">
+        <div class="projects-heading">
+          <p class="section-number">03</p>
+          <div><p class="eyebrow dark" data-es="PROYECTOS" data-en="SELECTED WORK">PROYECTOS</p><h2 data-es="Una mirada a nuestro trabajo." data-en="A look at our work.">Una mirada a nuestro trabajo.</h2></div>
+          <p data-es="Algunos de los proyectos desarrollados por Arquattro." data-en="Some of the projects developed by Arquattro.">Algunos de los proyectos desarrollados por Arquattro.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card feature"><img src="cantaluna-exterior.png" alt="Casa Cantaluna" /><div><p>01 · <span data-es="CONSTRUIDO" data-en="BUILT">CONSTRUIDO</span></p><h3>Casa Cantaluna</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Envigado, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20ROSSO/IMG_0100.jpg" alt="Casa Rosso" /><div><p>02 · <span data-es="CONSTRUIDO" data-en="BUILT">CONSTRUIDO</span></p><h3>Casa Rosso</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Llanogrande, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20CR/IMG_1086.JPG" alt="Casa CR" /><div><p>03 · <span data-es="CONSTRUIDO" data-en="BUILT">CONSTRUIDO</span></p><h3>Casa CR</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Llanogrande, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20LA%20TOJA/IMG_7610.JPG" alt="Casa La Toja" /><div><p>04 · <span data-es="CONSTRUIDO" data-en="BUILT">CONSTRUIDO</span></p><h3>Casa La Toja</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Envigado, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20ESTUARIO/FRENTE%201.jpg" alt="Casa Estuario" /><div><p>05 · <span data-es="PROYECTO" data-en="PROJECT">PROYECTO</span></p><h3>Casa Estuario</h3><span data-es="Diseño · Interiorismo" data-en="Architecture · Interior Design">Diseño · Interiorismo</span><span class="project-location">Cartagena, Bolívar</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20JP/PISCINA%203.jpg" alt="Casa JP" /><div><p>06 · <span data-es="CONSTRUIDO" data-en="BUILT">CONSTRUIDO</span></p><h3>Casa JP</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Venecia, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20PS/FRENTE%201.jpg" alt="Casa PS" /><div><p>07 · <span data-es="EN OBRA" data-en="UNDER CONSTRUCTION">EN OBRA</span></p><h3>Casa PS</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Envigado, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20JN/FRENTE%204.png" alt="Casa JN" /><div><p>08 · <span data-es="PROYECTO" data-en="PROJECT">PROYECTO</span></p><h3>Casa JN</h3><span data-es="Diseño · Interiorismo" data-en="Architecture · Interior Design">Diseño · Interiorismo</span><span class="project-location">Cúcuta, Norte de Santander</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20SAN%20ANTERO/AEREA%202.png" alt="Casa San Antero" /><div><p>09 · <span data-es="PRÓXIMO INICIO DE OBRA" data-en="CONSTRUCTION STARTING SOON">PRÓXIMO INICIO DE OBRA</span></p><h3>Casa San Antero</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">San Antero, Córdoba</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20MARINA%20BARU/MB%20IA%206%20NOCHE.png" alt="Marina Barú" /><div><p>10 · <span data-es="PRÓXIMO INICIO DE OBRA" data-en="CONSTRUCTION STARTING SOON">PRÓXIMO INICIO DE OBRA</span></p><h3>Marina Barú</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Cartagena, Bolívar</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20LEON/F2.2%20NOCHE.png" alt="Casa León" /><div><p>11 · <span data-es="PRÓXIMO INICIO DE OBRA" data-en="CONSTRUCTION STARTING SOON">PRÓXIMO INICIO DE OBRA</span></p><h3>Casa León</h3><span data-es="Diseño · Interiorismo" data-en="Architecture · Interior Design">Diseño · Interiorismo</span><span class="project-location">Envigado, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20CERRO%20VENTO/1.jpg" alt="Casa Cerro Vento" /><div><p>12 · <span data-es="PRÓXIMO INICIO DE OBRA" data-en="CONSTRUCTION STARTING SOON">PRÓXIMO INICIO DE OBRA</span></p><h3>Casa Cerro Vento</h3><span data-es="Diseño · Interiorismo" data-en="Architecture · Interior Design">Diseño · Interiorismo</span><span class="project-location">Envigado, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20JC%20TONUSCO/FRENTE%201.jpg" alt="Casa JC Tonusco" /><div><p>13 · <span data-es="PRÓXIMO INICIO DE OBRA" data-en="CONSTRUCTION STARTING SOON">PRÓXIMO INICIO DE OBRA</span></p><h3>Casa JC Tonusco</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Santa Fe de Antioquia, Antioquia</span></div></article>
+          <article class="project-card feature"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20ARRIETA/IMG_7220.JPG" alt="Casa Arrieta" /><div><p>14 · <span data-es="CONSTRUIDO" data-en="BUILT">CONSTRUIDO</span></p><h3>Casa Arrieta</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">Sopetrán, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20BRACAMONTE/FRENTE%201.jpg" alt="Casa Bracamonte" /><div><p>15 · <span data-es="EN OBRA" data-en="UNDER CONSTRUCTION">EN OBRA</span></p><h3>Casa Bracamonte</h3><span data-es="Diseño · Interiorismo" data-en="Architecture · Interior Design">Diseño · Interiorismo</span><span class="project-location">Envigado, Antioquia</span></div></article>
+          <article class="project-card"><img src="FOTOS_RENDERS%20PROYECTOS/CASA%20MONTESERENO%20312/IMG_6949.jpg" alt="Casa Montesereno" /><div><p>16 · <span data-es="CONSTRUIDO" data-en="BUILT">CONSTRUIDO</span></p><h3>Casa Montesereno</h3><span data-es="Diseño · Interiorismo · Construcción" data-en="Architecture · Interior Design · Construction">Diseño · Interiorismo · Construcción</span><span class="project-location">El Retiro, Antioquia</span></div></article>
+        </div>
+      </section>
+
+      <section class="method section-pad" id="metodo">
+        <p class="section-number">04</p>
+        <div><p class="eyebrow" data-es="MÉTODO" data-en="METHOD">MÉTODO</p><h2 data-es="Diseñar con propósito.<br><em>Ejecutar con precisión.</em>" data-en="Design with purpose.<br><em>Execute with precision.</em>">Diseñar con propósito.<br><em>Ejecutar con precisión.</em></h2></div>
+        <p data-es="Cada proyecto comienza con una lectura cuidadosa del lugar, el programa y la forma de habitar. Coordinamos diseño, presupuesto, materialidad y ejecución con alcances claros para proteger la intención del proyecto hasta su entrega." data-en="Every project begins with a careful reading of place, programme and the way people live. We coordinate design, budget, materiality and construction through clear scopes of work to protect the project's intent through delivery.">Cada proyecto comienza con una lectura cuidadosa del lugar, el programa y la forma de habitar. Coordinamos diseño, presupuesto, materialidad y ejecución con alcances claros para proteger la intención del proyecto hasta su entrega.</p>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <p class="eyebrow" data-es="ARQUATTRO" data-en="ARQUATTRO">ARQUATTRO</p>
+      <h2 data-es="Su próximo proyecto<br><em>puede empezar aquí.</em>" data-en="Your next project<br><em>can start here.</em>">Su próximo proyecto<br><em>puede empezar aquí.</em></h2>
+      <div class="footer-details"><p>Llanogrande, Rionegro<br>Antioquia · Colombia</p><p><a href="mailto:arquattroarquitectura@gmail.com">arquattroarquitectura@gmail.com</a><br><a href="tel:+573137471691">+57 313 747 1691</a></p><p><a href="https://www.instagram.com/arquattro_arquitectura/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de Arquattro">@arquattro_arquitectura ↗</a></p></div>
+      <p class="footer-mark">© <span id="year"></span> ARQUATTRO</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
